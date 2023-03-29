@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_ProjetoPDS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ProjetoPDS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="NaN" Margin="0,0,0,14">
+        <Label Content="MENU DE CADASTRO DE CONTATO:" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.736,-0.132" Width="535" FontSize="36" FontFamily="Calibri" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"/>
+        <Button x:Name="btCadastrarContato" Content="CADASTRO CONTATO" HorizontalAlignment="Center" Margin="0,131,0,0" VerticalAlignment="Top" Height="60" Width="212" FontSize="20" FontFamily="Calibri" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Click="btCadastrarContato_Click"/>
+        <Button x:Name="bt_Listar" Content="LISTA CONTATO" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Height="56" Width="212" FontFamily="Calibri" FontSize="20" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Click="bt_Listar_Click"/>
+
+    </Grid>
+</Window>
